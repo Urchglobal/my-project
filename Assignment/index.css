@@ -1,0 +1,79 @@
+body{
+
+}
+.box1{
+    /* border: thin solid red; */
+    width: 1000px;
+    height: 1000px;
+}
+.box2{
+    border: thin solid green;
+    width: 400px;
+    height: 400px;
+
+}
+.container{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    
+}
+.card button img{
+    width: 10px;
+    height: 10px;
+}
+.cards img{
+    width: 230px;
+    height: 150px;
+}
+.cards{
+    display: flex;
+
+}
+.card button{
+    border: thin solid red;
+    width: 150px;
+    position: relative; 
+    bottom: 15px;
+    margin-left: 50px;
+    
+}
+.card button a{
+    text-decoration: none;
+}
+.second-card img{
+    width: 230px;
+    height:150px ;
+}
+.second-card button img{
+    width: 10px;
+    height: 10px;
+}
+.second-card{
+    display: flex;
+}
+.second-card button{
+    border: thin solid red;
+    width: 150px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 50px;
+}
+.third_card img{
+    width: 230px;
+    height: 150px;
+}
+.third_card button img{
+    width: 10px;
+    height: 10px;
+}
+.third_card{
+    display: flex;
+}
+.third_card button{
+    border: thin solid red;
+    width: 150px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 50px;
+}
